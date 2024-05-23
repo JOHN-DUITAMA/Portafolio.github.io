@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+</head>
+
+ 
+
+
+<body>
+  <link rel="stylesheet" href="style.css">  
+  
+  
+  <!-- MENU ENCABEZADO -->
+<div class="div contenedor-header">
+  <header>
+    <script src="script.js"></script>
+      <nav id="nav">
+          <ul>
+              <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+              <li><a href="#acercademi" onclick="seleccionar()">ACERCA DE MI</a></li>
+              <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+              <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+              <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+              <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+      </nav>
+      <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+      </div>
+  </header>
+</div>
+
+<!-- SECCION INICIO -->
+<section id="inicio" class="inicio">
+  <div class="contenedor-banner">
+      <div class="contenedor-img">
+          <img src="foto.png 1.png" alt="">
+      </div>
+      <h1>JOHN DUITAMA</h1>
+      <h2>Diseñador grafico</h2>
+      
+  </div>
+
+  </section>
+
+</section>
+
+<!-- SECCION QUIEN SOY -->
+<section id="acercademi" class="acercademi">
+    <div class="contenido-seccion">
+        <h2>Acerca de mi</h2>
+        <p>Mi nombre es John Duitama soy una persona apasionada por el diseño gráfico, aunque no tengo formación académica formal en el área. A lo largo de los años, he desarrollado habilidades autodidactas y he adquirido experiencia práctica en diversos proyectos de diseño. Mi enfoque en el diseño gráfico se basa en la experimentación, la creatividad y el deseo de aprender constantemente.
+            Actualmente me encuentro estudiando programación FRONT-END en el programa Oracle One en Alura Latam donde deseo aprender lo máximo que pueda y absorber todo el conocimiento para poder ejercer esta profesión complementando con mis conocimientos en diseño gráfico para estar a la altura de lo que el mercado tecnológico exige actualmente.
+            
+
+            
+            
+        </div>
+</section>
+<!--SECCION SKILLS--> 
+<article id="work" class="wrapper style2">
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>    
+            <div class="row aln-center" id="lenguajes">
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-comments"></span>
+                        <h3>JS</h3>
+                        <span class="imageJS"><img src="script.png" alt="" /></span>
+                    </section>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon solid featured fa-camera-retro"></span>
+                        <h3>HTML5</h3>
+                        <span class="imageCSS"><img src="html5.png" alt="" /></span>
+                    </section>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-thumbs-up"></span>
+                        <h3>CSS3</h3>
+                        <span class="imageJS"><img src="CSS..png" alt="" /></span>
+                    </section>
+                </div>
+                <div class="col-4 col-6-medium col-12-small">
+                    <section class="box style1">
+                        <span class="icon featured fa-thumbs-up"></span>
+                        <h3>COREL DRAW</h3>
+                        <span class="imageCD"><img src="coreld.png" alt="" /></span>
+                    </section>
+                </div>
+            </div>
+    </section>          
+</article>              
+ 
+ <!-- SECCION CURRICULUM -->
+ <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                <h3> Cursos</h3>
+                <h4><b>Oracle ONE:</b> Fron-end</h4>
+                <h4><b>Universidad Nacional de Colombia:</b> Animacion 2D </h4>
+                <h4><b>SENA:</b> Corel Draw </h4>
+            
+        </div>
+        
+        </div>    
+            <div class="col derecha">
+                <h3>Proyectos</h3>
+                <div class="item der">
+                <h4>Animacion 2d Animacion My CAT</h4>
+                <h4><b>Diseño de almanaques Munev-art</b></h4> 
+                <h4><b>Restauracion de fotografias Munev-art</b></h4> 
+            </div>
+                
+</section>  
+
+ <!-- SECCION PORTAFOLIO -->
+ 
+ <section id="portafolio" class="portafolio">
+    <div class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="encriptador.jpg" alt="">
+                <div class="overlay">
+                   
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="juego.jpg" alt="">
+                <div class="overlay">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+        
+ <!-- SECCION CONTACTO -->
+ 
+ <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+        <!-- formulario -->
+        <div class="col">
+            
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Número de telefónico">
+            <input type="text" placeholder="Asunto">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button class="btn shadow-effect">Enviar Mensaje</button>
+            <button class="btn shadow-effect">Borrar Mensaje</button>
+            
+
+            
+        </div>    
+
+    </div>
+           
+   
+</section>
+
+   
+
+
+
+</section>
+</article> 
+
+</body>
+</html>
